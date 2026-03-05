@@ -12,17 +12,20 @@ const jetBrainsMono = JetBrains_Mono({
   subsets: ["latin"],
 });
 
+const isProd = process.env.NODE_ENV === "production";
+const basePath = isProd ? "/vivekvs.github.io" : "";
+
 export const metadata: Metadata = {
   title: "Vivek V S | Full Stack Developer",
   description:
     "Portfolio of Vivek V S, Full Stack Developer specializing in React, Next.js, Firebase, and production MVP delivery.",
   icons: {
     icon: [
-      { url: "/favicon.png", sizes: "any" },
-      { url: "/favicon.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon.png", sizes: "16x16", type: "image/png" },
+      { url: `${basePath}/favicon.png`, sizes: "any" },
+      { url: `${basePath}/favicon.png`, sizes: "32x32", type: "image/png" },
+      { url: `${basePath}/favicon.png`, sizes: "16x16", type: "image/png" },
     ],
-    apple: "/favicon.png",
+    apple: `${basePath}/favicon.png`,
   },
 };
 
