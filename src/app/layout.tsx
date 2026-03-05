@@ -17,7 +17,12 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Vivek V S, Full Stack Developer specializing in React, Next.js, Firebase, and production MVP delivery.",
   icons: {
-    icon: "/favicon.png",
+    icon: [
+      { url: "/favicon.png", sizes: "any" },
+      { url: "/favicon.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: "/favicon.png",
   },
 };
 
