@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Vivek V S | Full Stack Developer",
   description:
     "Portfolio of Vivek V S, Full Stack Developer specializing in React, Next.js, Firebase, and production MVP delivery.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
