@@ -9,6 +9,7 @@ import {
   GraduationCap,
   Mail,
   MapPin,
+  MessageCircle,
   Phone,
   Sparkles,
 } from "lucide-react";
@@ -246,13 +247,24 @@ export default function Home() {
               India | Remote / On-site / Hybrid
             </p>
           </div>
-          <a
-            href="mailto:vivekbhat820@gmail.com"
-            className="inline-flex items-center gap-2 rounded-xl bg-[#8dd2ff] px-4 py-2 font-bold text-black transition hover:bg-[#b0e0ff]"
-          >
-            <Mail size={16} />
-            Contact Vivek
-          </a>
+          <div className="flex flex-wrap gap-3">
+            <a
+              href="https://wa.me/917338085820"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-xl bg-[#25d366] px-4 py-2 font-bold text-white transition hover:bg-[#20ba5a]"
+            >
+              <MessageCircle size={16} />
+              WhatsApp
+            </a>
+            <a
+              href="mailto:vivekbhat820@gmail.com"
+              className="inline-flex items-center gap-2 rounded-xl border border-white bg-[#0f172a] px-4 py-2 font-bold text-white transition hover:bg-[#1a2f4a]"
+            >
+              <Mail size={16} />
+              Email
+            </a>
+          </div>
         </motion.footer>
       </main>
     </div>
