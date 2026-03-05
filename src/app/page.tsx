@@ -248,7 +248,7 @@ export default function Home() {
           </div>
           <a
             href="mailto:vivekbhat820@gmail.com"
-            className="inline-flex items-center gap-2 rounded-xl bg-[#8dd2ff] px-4 py-2 font-semibold text-[#071424] transition hover:bg-[#b0e0ff]"
+            className="inline-flex items-center gap-2 rounded-xl bg-[#8dd2ff] px-4 py-2 font-bold text-black transition hover:bg-[#b0e0ff]"
           >
             <Mail size={16} />
             Contact Vivek
